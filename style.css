@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.centerbox {
+    width: 400px;
+    height: 150px;
+    border: 5px solid red;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(153, 14, 153);
+    text-shadow: 2px 2px 2px rgb(41, 1, 41);
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 7px 7px 1px purple;
+}
+
+.con1 {
+    margin-top: 5px;
+    border: 5px solid green;
+    height: 510px;
+    margin-bottom: 20px;
+
+}
+
+.box {
+    width: 210px;
+    height: 210px;
+    border: 5px solid red;
+    border-radius: 20px;
+    background-color: white;
+    color: rgba(102, 0, 102, 0.986);
+    box-shadow: 7px 7px 1px purple;
+    text-shadow: 2px 2px 2px rgb(41, 1, 41);
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.box1 {
+    float: left;
+    margin-bottom: 60px;
+    padding: 10px;
+}
+
+.box1 p {
+    
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 21px;
+
+}
+
+.box2 {
+    float: right;
+    position: relative;
+    right: 50px;
+    padding: 20px;
+}
+
+.box2 img {
+    border: 2px solid black;
+    border-top: 0;
+    margin-top: 20px;
+}
+
+.box3 {
+    float: left;
+    clear: left;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.box3 p {
+    font-size: 21.5px;
+}
+
+.box4 {
+    float: right;
+    position: relative;
+    font-size: 20px;
+    right: 50px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.cen {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.cen.sumbit {
+    margin: 20px auto -5px;
+
+}
+
+.box4 input {
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.box4 .submit {
+    background-color: red;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: auto;
+    padding: 1px 3px;
+    font-size: 10px;
+}
+
+.parent {
+    width: 820px;
+    height: 515px;
+    border: 7px solid purple;
+    background-color: green;
+    text-align: center;
+    margin: auto;
+}
+
+.text {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.pbox1 {
+    width: 400px;
+    height: 230px;
+    border: 3px solid rgba(0, 0, 0, 0.288);
+    background-color: rgb(253, 253, 114);
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2;
+
+
+}
+
+.pbox2 {
+    width: 400px;
+    height: 230px;
+    border: 3px solid rgba(0, 0, 0, 0.288);
+    background-color: rgb(253, 253, 114);
+    float: right;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.pox3 {
+    margin-top: 10px;
+    width: 800px;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.288);
+    background-color: rgb(253, 253, 114);
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2;
+    float: right;
+    position: relative;
+    left: 10px;
+    
+    z-index: 0;
+
+}
+
+.offerbox {
+    width: 500px;
+    height: 80px;
+    border: 5px solid red;
+    border-radius: 20px;
+    background-color: greenyellow;
+    color: red;
+    position: relative;
+    margin: auto 40% auto auto;
+    bottom: 120px;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 7px 7px 1px purple;
+    position: sticky;
+    z-index: 2;
+}
+.centerdiv {
+    padding: 5px;
+}
+
+.text1 {
+    padding-top: 10px;
+    height: 80px;
+    width: 300px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+
+
+}
+
+.text2 {
+    padding-top: 8px;
+    height: 80px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 30px;
+
+}
+.centerdiv {
+    padding: 5px;
+    margin-bottom: -80px;
+}
